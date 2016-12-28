@@ -19,10 +19,12 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+* On removing the bill amount by clicking clear(Cross icon on right side), Tip amoount and total bill also resets to 0. 
+* Used Numeric keyboard
+* Total will start calculating as soon as user starts typing or he changes the tip percentage.
 
 ## Video Walkthrough 
-<img src='//imgur.com/RWKft' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='imgur.com/RWKft' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
