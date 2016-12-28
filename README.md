@@ -24,16 +24,17 @@ The following **additional** features are implemented:
 * Total will start calculating as soon as user starts typing or he changes the tip percentage.
 
 ## Video Walkthrough 
-<img src='imgur.com/RWKft' title='Video Walkthrough' width='200' alt='Video Walkthrough' />
+<img src='imgur.com/RWKft' title='Video Walkthrough'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 ## Notes
 
-Describe any challenges encountered while building the app.
+* Applying constraints on different UI items was tricky.
 
 ## License
 
-Copyright [yyyy] [name of copyright owner]
+Copyright [2016] [Prem Ankur]
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
