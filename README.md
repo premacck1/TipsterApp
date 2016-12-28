@@ -22,9 +22,9 @@ The following **additional** features are implemented:
 - [ ] List anything else that you can get done to improve the app functionality!
 
 ## Video Walkthrough 
+<img src='//imgur.com/RWKft' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/RWKft"><a href="//imgur.com/RWKft"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
