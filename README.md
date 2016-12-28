@@ -26,8 +26,6 @@ The following **additional** features are implemented:
 ## Video Walkthrough 
 <img src='Tipster.gif' title='Video Walkthrough'/>
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
 ## Notes
 
 * Applying constraints on different UI items was tricky.
