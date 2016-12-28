@@ -21,9 +21,9 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-* On removing the bill amount by clicking clear(Cross icon on right side), Tip amoount and total bill also resets to 0. 
-* Used Numeric keyboard
-* Total will start calculating as soon as user starts typing or he changes the tip percentage.
+* [x] On removing the bill amount by clicking clear(Cross icon on right side), Tip amoount and total bill also resets to 0. 
+* [*] Used Numeric keyboard
+* [*] Total bill amount will start calculating as soon as user starts typing or when user changes the changes the tip percentage.
 
 ## Video Walkthrough 
 <img src='Tipster.gif' title='Video Walkthrough'/>
