@@ -19,7 +19,6 @@ class ViewController: UIViewController,UITextFieldDelegate {
     // UserDefaults to retrieve default tip amount
     let defaults = NSUserDefaults.standardUserDefaults()
     
-    
     //When a tip percent in segment control is selected
     @IBAction func segmentControllerAction(sender: AnyObject) {
         
@@ -49,6 +48,10 @@ class ViewController: UIViewController,UITextFieldDelegate {
         }else{
                     segmentedControl.selectedSegmentIndex = 0
         }
+        let billAmount = defaults.stringForKey("billAmount")
+        billTextField.text = billAmount
+        onEditingChanged(billTextField)
+
     }
     
     override func viewWillAppear(animated: Bool) {
@@ -65,7 +68,17 @@ class ViewController: UIViewController,UITextFieldDelegate {
         let tipAmount = tipPercent * billAmount!
         tipLabel.text = "$\(tipAmount)"
         let sum = billAmount! + tipAmount
-        totalBilLabel.text = "$\(sum)"}
+        totalBilLabel.text = "$\(sum)"
+        } else
+        {
+            tipLabel.text = "$0.0"
+            totalBilLabel.text = "$0.0"
+        }
+    }
+    
+    override func viewWillDisappear(animated: Bool) {
+        defaults.setValue(billTextField.text, forKey: "billAmount")
+        defaults.synchronize()
     }
 
     override func didReceiveMemoryWarning() {
