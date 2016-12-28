@@ -24,7 +24,7 @@ The following **additional** features are implemented:
 * Total will start calculating as soon as user starts typing or he changes the tip percentage.
 
 ## Video Walkthrough 
-<img src='imgur.com/RWKft' title='Video Walkthrough'/>
+<img src='Tipster.gif' title='Video Walkthrough'/>
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
